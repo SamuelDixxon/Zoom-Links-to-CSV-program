@@ -5,7 +5,7 @@ Writing Zoomlinks to chat
 
 
 def writeZoomLinks(course, classification, day, time_frame, link):
-    with open("C:/Users/15123/Desktop/ZoomZoom.csv", "a") as myFile:
+    with open("C:/Users/#####/Desktop/ZoomZoom.csv", "w") as myFile:   #specify User address for writing file to the desktop, first use write to create the file, then change to append in order to avoid over writing the file everytime
         #myFile.write("Course, Meeting Type, Day, Time, Link\n") ### initial header 
         myFile.write("%s,%s,%s,%s,%s" % (course, classification, day, time_frame, link))
         
